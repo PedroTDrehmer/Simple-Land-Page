@@ -1,0 +1,70 @@
+body{
+    background-image: url(/Imagens/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+main{
+    color: rgb(100, 100, 100);
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+}
+
+header{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    
+    background-color: rgb(220, 220, 220);
+    color: rgb(100, 100, 100);
+
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+    letter-spacing: 3px;
+    
+    padding: 20px;
+}
+
+
+footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+    background-color: rgb(220, 220, 220);
+    color: rgb(100, 100, 100);
+
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+    letter-spacing: 3px;
+    
+    padding: 20px;
+}
+
+p{
+    padding: 8px;
+}
+
+.espaço{
+    padding-top: 50px;
+}
+
+.whatsapp-botao-verde {
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	bottom: 50px;
+	right: 50px;
+	border-radius: 50px;
+	background-color: #25d366;
+	color: #fff;
+    align-self: auto;
+	font-size: 30px;
+}
+
+.fa-whatsapp {
+	margin-left: 12px;
+    margin-top: 8px;
+}
